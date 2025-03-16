@@ -1,7 +1,9 @@
 /* Base */
 .text-cursive {
   font-family: "Indie Flower", cursive !important; }
-
+.text-cursive-large {
+  font-size: 2rem; /* Adjust the size as needed */
+}
 html {
   overflow-x: hidden; }
 
@@ -800,7 +802,7 @@ h1, h2, h3, h4, h5,
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.3);
+      background-color: #F7C6D1; /* Mild light blue color with transparency */
       z-index: 1; }
   .site-section-cover.inner-page,
   .site-section-cover.inner-page .container > .row {
