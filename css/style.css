@@ -458,6 +458,18 @@ h1, h2, h3, h4, h5,
 .top-bar {
   border-bottom: 1px solid #e9ecef !important; }
 
+@media (max-width: 767px) {
+  .ftco-blocks-cover-1 img {
+    max-width: 60%; /* Reduce image size */
+    display: block; 
+    margin: 0px auto 0; /* Push it down */
+  }
+
+  .site-section-cover {
+    padding-top: 180px; /* Push the section down */
+  }
+}
+
 /* Navbar */
 .site-navbar {
   margin-bottom: 0px;
